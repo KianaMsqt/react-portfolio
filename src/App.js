@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 import Contact from './components/pages/Contact';
 
 function App() {
@@ -21,52 +22,9 @@ function App() {
 			{/* Define a default route that will render the Home component */}
 			<Route path="/" element={<About />} />
 			<Route path="/portfolio" element={<Portfolio />} />
+			<Route path="/skills" element={<Skills />} />
 			<Route path="/contact" element={<Contact />} />
 		</Routes>
-
-		<section id="skills" className="bg-dark text-white">
-			<div className="container mt-5 mb-5 pt-5 pb-5">
-				<h2>My Skills</h2>
-				<div className="row gx-4 justify-content-between">
-					<div className="col-lg-4 col-md-6 mt-4">
-						HTML
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 mt-4">
-						CSS
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 mt-4">
-						Javascript
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 mt-4">
-						JQuery
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 mt-4">
-						Bootstrap
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 mt-4">
-						React.js
-						<div className="progress">
-							<div className="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		<section id="contact">
 			<div className="container mt-5 mb-5 pt-5 pb-5">
