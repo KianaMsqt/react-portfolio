@@ -3,3 +3,8 @@
     align-items: center;
     min-height: 100vh;
 }
+
+/* Skills progressbar customize color */
+.progress-bar {
+	background-color: var(--colored) !important;
+}
