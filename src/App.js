@@ -10,6 +10,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,26 +27,7 @@ function App() {
 			<Route path="/contact" element={<Contact />} />
 		</Routes>
 
-		<footer className="bg-dark text-white">
-			<div className="container mt-5 mb-5 pt-5">
-				<ul className="nav justify-content-center border-bottom pb-3 mb-3">
-					<li className="nav-item"><a href="#about" className="nav-link text-white px-2">About</a></li>
-					<li className="nav-item"><a href="#portfolio" className="nav-link text-white px-2">Portfolio</a></li>
-					<li className="nav-item"><a href="#skills" className="nav-link text-white px-2">Skills</a></li>
-					<li className="nav-item"><a href="#contact" className="nav-link text-white px-2">Contact</a></li>
-				</ul>
-				
-				{/* <ul className="nav social justify-content-center">
-					<li className="nav-item mx-3"><a href="#" target="_blank" className="btn btn-dark text-white px-2">GitHub</a></li>
-					<li className="nav-item mx-3"><a href="#" target="_blank" className="btn btn-dark text-white px-2">Linkedin</a></li>
-					<li className="nav-item mx-3"><a href="#" target="_blank" className="btn btn-dark text-white px-2">Twitter</a></li>
-				</ul> */}
-
-			</div>
-			<p className="text-center text-white py-3 copy-right my-0">© 2023 Kiana Masqati</p>
-
-		</footer>
-        
+		<Footer />
     </Router>
   );
 }
