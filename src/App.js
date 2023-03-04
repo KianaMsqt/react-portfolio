@@ -6,8 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
+import About from './components/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
@@ -16,18 +15,16 @@ function App() {
     <Router>
 		<Header />
 
-		<div className="jumbotron jumbotron-fluid" id="about">
-			<div className="container">
-				<h1 className="display-4 text-white">About Me</h1>
-				<div className="lead">
-					<span className="text-white">Product enthusiast with 7+ years of experience in working with agile teams. Skilled in Front-End development. Reliable team player and eager to learn product skills.</span>
-					<ul>
-						<li className="text-white">Product Management Methodologies and Frameworks: Agile, Waterfall, Scrum</li>
-						<li className="text-white">Development Skills: HTML, CSS, Javascript, jQuery, Vue.js, Git, SCSS, Stylus, Mustache, Pug, WordPress</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<div>
+            {/* Wrap Route elements in a Routes component */}
+            <Routes>
+                {/* Define routes using the Route component to render different page components at different paths */}
+                {/* Define a default route that will render the Home component */}
+                <Route path="/" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
+        </div>
 
 		<section id="portfolio">
 			<div className="container mt-5 mb-5 pt-5 pb-5">
@@ -167,17 +164,7 @@ function App() {
 			<p className="text-center text-white py-3 copy-right my-0">© 2023 Kiana Masqati</p>
 
 		</footer>
-        <div>
-            {/* Wrap Route elements in a Routes component */}
-            <Routes>
-                {/* Define routes using the Route component to render different page components at different paths */}
-                {/* Define a default route that will render the Home component */}
-                <Route path="/" element={<Home />} />
-                <Route path="/" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/projects" element={<Projects />} />
-            </Routes>
-        </div>
+        
     </Router>
   );
 }

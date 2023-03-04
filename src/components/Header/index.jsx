@@ -21,7 +21,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/about" end>About Me</NavLink>
+                            <NavLink className="nav-link text-white" to="/" end>About Me</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link text-white" to="/portfolio" end>My Portfolio</NavLink>
