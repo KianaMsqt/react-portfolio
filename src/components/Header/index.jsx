@@ -24,7 +24,7 @@ function Header() {
                             <NavLink className="nav-link text-white" to="/" end>About Me</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white" to="/portfolio" end>My Portfolio</NavLink>
+                            <NavLink className="nav-link text-white" to="/projects" end>My Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link text-white" to="/skills" end>My Skills</NavLink>
