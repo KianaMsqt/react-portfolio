@@ -25,7 +25,7 @@ function Footer() {
 				<ul className="nav social justify-content-center">
 					<li className="nav-item mx-3"><a href="https://github.com/KianaMsqt" target="_blank" rel="noreferrer" className="btn btn-dark text-white px-2">GitHub</a></li>
 					<li className="nav-item mx-3"><a href="https://www.linkedin.com/in/kiana-masqati/" target="_blank" rel="noreferrer" className="btn btn-dark text-white px-2">Linkedin</a></li>
-					<li className="nav-item mx-3"><a href="https://twitter.com/KianaMsqt" target="_blank" rel="noreferrer" className="btn btn-dark text-white px-2">Twitter</a></li>
+					<li className="nav-item mx-3"><a href="mailto:masqati.kiana@gmail.com" target="_blank" rel="noreferrer" className="btn btn-dark text-white px-2">Email</a></li>
 				</ul>
 
 			</div>
