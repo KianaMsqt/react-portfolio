@@ -30,6 +30,7 @@ function App() {
 			{/* Handling Home Page URL on app rendering */}
 			{/* It's better to use Redirect before showing component Home */}
 			<Route path="*" element={<Home />} />
+			<Route path='https://kianamsqt.github.io/react-portfolio/' element={<Home />} />
 		</Routes>
 
 		<Footer />
