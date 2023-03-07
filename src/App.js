@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Home from './components/Home';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -21,8 +21,8 @@ function App() {
 		<Routes>
 			{/* Define routes using the Route component to render different page components at different paths */}
 			{/* Define a default route that will render the Home component */}
-			<Route path="/" element={<About />} />
-			<Route path="/portfolio" element={<Portfolio />} />
+			<Route path="/" element={<Home />} />
+			<Route path="/projects" element={<Projects />} />
 			<Route path="/skills" element={<Skills />} />
 			<Route path="/contact" element={<Contact />} />
 		</Routes>

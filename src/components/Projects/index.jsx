@@ -1,7 +1,7 @@
 import React from "react";
-import "./Portfolio.css";
+import "./Projects.css";
 
-function Portfolio() {
+function Projects() {
   return <>
 		<section id="portfolio">
 			<div className="container mt-5 mb-5 pt-5 pb-5">
@@ -56,4 +56,4 @@ function Portfolio() {
   </>;
 }
 
-export default Portfolio;
+export default Projects;

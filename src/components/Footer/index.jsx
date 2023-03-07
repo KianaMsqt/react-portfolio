@@ -12,7 +12,7 @@ function Footer() {
                         <NavLink className="nav-link text-white px-2" to="/" end>About Me</NavLink>
                     </li>
 					<li className="nav-item">
-                        <NavLink className="nav-link text-white px-2" to="/portfolio" end>My Portfolio</NavLink>
+                        <NavLink className="nav-link text-white px-2" to="/projects" end>My Portfolio</NavLink>
                     </li>
 					<li className="nav-item">
                         <NavLink className="nav-link text-white px-2" to="/skills" end>My Skills</NavLink>
