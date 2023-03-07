@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
+import "./Home.css";
 
-function About() {
+function Home() {
   return (
 	<>
 		<div className="jumbotron jumbotron-fluid" id="about">
@@ -20,4 +20,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
