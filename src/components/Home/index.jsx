@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import CV from "./Tayebe-Kiana-Masqati-resume.pdf";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
 						<li className="text-white">Product Management Methodologies and Frameworks: Agile, Waterfall, Scrum</li>
 						<li className="text-white">Development Skills: HTML, CSS, Javascript, jQuery, Vue.js, Git, SCSS, Stylus, Mustache, Pug, WordPress</li>
 					</ul>
+					<a href={CV} title="Download Resume" download="Tayebe-Kiana-Masqati-resume.pdf" className="btn btn-primary">Download My Resume</a>
 				</div>
 			</div>
 		</div>
