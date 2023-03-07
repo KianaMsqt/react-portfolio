@@ -12,6 +12,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+  
 function App() {
   return (
     <Router>
@@ -25,6 +26,10 @@ function App() {
 			<Route path="/projects" element={<Projects />} />
 			<Route path="/skills" element={<Skills />} />
 			<Route path="/contact" element={<Contact />} />
+
+			{/* Handling Home Page URL on app rendering */}
+			{/* It's better to use Redirect before showing component Home */}
+			<Route path="*" element={<Home />} />
 		</Routes>
 
 		<Footer />
