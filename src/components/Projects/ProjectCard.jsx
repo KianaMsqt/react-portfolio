@@ -1,6 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 function ProjectCard(props) {
+
     return <>
         <div className="col-lg-4 col-md-6 mt-4 d-flex align-items-stretch">
             <div className="card">
@@ -9,7 +12,9 @@ function ProjectCard(props) {
                 </div>
                 <div className="card-body d-flex flex-column">
                     <div>
-                        <h5 className="card-title">{props.name}</h5>
+                        <Link to={`/projects/${props.id}`} className="project-link">
+                            <h5 className="card-title">{props.name}</h5>
+                        </Link>
                         <p className="card-text">{props.description}</p>
                     </div>
                     <div>

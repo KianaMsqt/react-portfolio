@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ProjectDetails from './components/Projects/ProjectDetails';
 
   
 function App() {
@@ -24,6 +25,7 @@ function App() {
 			{/* Define a default route that will render the Home component */}
 			<Route path="/" element={<Home />} />
 			<Route path="/projects" element={<Projects />} />
+			<Route path="/projects/:id" element={<ProjectDetails />} />
 			<Route path="/skills" element={<Skills />} />
 			<Route path="/contact" element={<Contact />} />
 
