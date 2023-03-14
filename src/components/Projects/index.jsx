@@ -3,7 +3,7 @@ import "./Projects.css";
 
 // Import Project's Details
 import projects from "./projects.json";
-import ProjectCard from "./Project-Card";
+import ProjectCard from "./ProjectCard";
 
 
 // Create an array of ProjectCard component included each project's details
