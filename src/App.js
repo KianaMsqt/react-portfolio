@@ -16,7 +16,7 @@ import ProjectDetails from './components/Projects/ProjectDetails';
   
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
 		<Header />
 
 		{/* Wrap Route elements in a Routes component */}
@@ -28,6 +28,8 @@ function App() {
 			<Route path="/projects/:id" element={<ProjectDetails />} />
 			<Route path="/skills" element={<Skills />} />
 			<Route path="/contact" element={<Contact />} />
+			{/* Catch all other routes that don't match any of the defined routes and redirect them to the Home component. */}
+			<Route path="*" element={<Home />} />
 		</Routes>
 
 		<Footer />
