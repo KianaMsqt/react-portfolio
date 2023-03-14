@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "React Portfolio",
+        "repo": "https://github.com/KianaMsqt/react-portfolio",
+        "demo": "https://kianamsqt.github.io/react-portfolio/",
+        "description": "This application was created for showing an online portfolio website using react.js, bootstrap and react-router.",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "README Generator",
+        "repo": "https://github.com/KianaMsqt/readme-generator",
+        "demo": "",
+        "description": "This application generates a README file based on criteria that user selected in CLI.",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Daily Planner",
+        "repo": "https://github.com/KianaMsqt/daily-planner",
+        "demo": "https://kianamsqt.github.io/daily-planner/",
+        "description": "This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript and jQuery. It will have a responsive user interface that adapts to multiple screen sizes. Daily Planner is an online schedule for adding important events in selected time slots.",
+        "image": "https://github.com/KianaMsqt/daily-planner/raw/main/assets/images/Daily-Planner.png"
+    },
+    {
+        "id": 4,
+        "name": "Flashlight Effect",
+        "repo": "https://github.com/KianaMsqt/flashlight-effect",
+        "demo": "https://codepen.io/KianaMsqt/pen/bGEVNbG",
+        "description": "Flash light effect on mouse cursor using css and javascript.",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "repo": "https://github.com/KianaMsqt/password-generator",
+        "demo": "https://kianamsqt.github.io/password-generator/",
+        "description": "This application generates a random password based on criteria that user selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a responsive user interface that adapts to multiple screen sizes.",
+        "image": "https://github.com/KianaMsqt/password-generator/raw/main/assets/images/05-javascript-challenge-demo.png"
+    },
+    {
+        "id": 6,
+        "name": "Only HTML & CSS Portfolio",
+        "repo": "https://github.com/KianaMsqt/portfolio",
+        "demo": "https://kianamsqt.github.io/portfolio/",
+        "description": "This project was created for showing an online portfolio website. It contains HTML and CSS. For earliest stage it consentrates on simplest way of creating a responsive single page application using HTML and grid or flex box with CSS.",
+        "image": ""
+    }
+]

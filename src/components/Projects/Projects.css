@@ -1,0 +1,43 @@
+.btn-primary {
+	background-color: var(--colored);
+	outline: var(--colored);
+	border: var(--colored);
+}
+
+.btn-primary:hover {
+	background-color: #772238;
+	border-color: #772238;
+}
+
+.card-body {
+    justify-content: space-between;
+}
+
+.card-body .btn {
+    width: 100%;
+}
+
+.project-link {
+    color: var(--colored);
+    text-decoration: solid;
+}
+
+.project-link :hover {
+    color: #772238;
+}
+
+.card-img-top {
+    height: 30vh;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: auto;
+}
+
+.project-details img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,41 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .border {
+	border-color: var(--white) !important;
+	border-width: 3px !important;
+}
+
+.navbar-text {
+    margin-left: 1rem;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
+}
+
+
+/* Interactive animation for navigation items */
+.navbar .nav-link {
+	position: relative;
+}
+
+.navbar .nav-link:after {
+	background: var(--white);
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	margin-top: 5px;
+	transition: .2s;
+}
+
+.navbar .nav-link:hover:after {
+	width: 20px;
+	left: 10%;
+}
