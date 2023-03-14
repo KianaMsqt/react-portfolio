@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a555e16d.css",
-    "main.js": "/react-portfolio/static/js/main.f93e4a01.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/home-hero.jpg": "/react-portfolio/static/media/home-hero.4af070386dbb7acb4e83.jpg",
-    "static/media/avatar.jpeg": "/react-portfolio/static/media/avatar.8976065db356aaa830fd.jpeg",
-    "static/media/Tayebe-Kiana-Masqati-resume.pdf": "/react-portfolio/static/media/Tayebe-Kiana-Masqati-resume.40242fe9882657413ccc.pdf",
-    "index.html": "/react-portfolio/index.html",
-    "main.a555e16d.css.map": "/react-portfolio/static/css/main.a555e16d.css.map",
-    "main.f93e4a01.js.map": "/react-portfolio/static/js/main.f93e4a01.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "./static/css/main.4bf1d95c.css",
+    "main.js": "./static/js/main.9787f187.js",
+    "static/js/787.a2cb61a6.chunk.js": "./static/js/787.a2cb61a6.chunk.js",
+    "static/media/home-hero.jpg": "./static/media/home-hero.4af070386dbb7acb4e83.jpg",
+    "static/media/avatar.jpeg": "./static/media/avatar.8976065db356aaa830fd.jpeg",
+    "static/media/Tayebe-Kiana-Masqati-resume.pdf": "./static/media/Tayebe-Kiana-Masqati-resume.40242fe9882657413ccc.pdf",
+    "index.html": "./index.html",
+    "main.4bf1d95c.css.map": "./static/css/main.4bf1d95c.css.map",
+    "main.9787f187.js.map": "./static/js/main.9787f187.js.map",
+    "787.a2cb61a6.chunk.js.map": "./static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a555e16d.css",
-    "static/js/main.f93e4a01.js"
+    "static/css/main.4bf1d95c.css",
+    "static/js/main.9787f187.js"
   ]
 }
