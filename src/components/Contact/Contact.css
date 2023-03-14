@@ -15,3 +15,9 @@
 .contact-details a:not(.btn) {
     color: var(--colored);
 }
+
+/* Adding asterisk to required fields */
+.form-group.required label:after {
+    content:"*";
+    color:red;
+}
