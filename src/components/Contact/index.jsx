@@ -30,14 +30,13 @@ function Contact() {
         const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
         // const { email, message } = formData;
 
-		console.log( formData )
-        if (!emailRegex.test({...formData.email})) {
+        if (!emailRegex.test(formData.email)) {
 			// Set an object with properties for the toast message
 			setValidationMessage({ header: "Failed!", text: "Please enter a valid email address.", color: "red" });
 			return;
 		}
 
-        if (!{...formData.message}) {
+        if (!formData.message) {
 			// Set an object with properties for the toast message
 			setValidationMessage({ header: "Failed!", text: "Please enter a message.", color: "red" });
 			return;
