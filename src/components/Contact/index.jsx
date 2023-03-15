@@ -6,7 +6,11 @@ import CV from "./Tayebe-Kiana-Masqati-resume.pdf";
 
 function Contact() {
 
-	const [formData, setFormData] = useState({ email: "", name: "", message: "" });
+	const [formData, setFormData] = useState([{ 
+		email: "", 
+		name: "", 
+		message: "" 
+	}]);
 	
 	const handleInputChange = event => {
 		// Getting the value and name of the input which triggered the change
@@ -82,6 +86,7 @@ function Contact() {
 								<input
 									type="email"
 									id="email"
+									name="email"
 									className="form-control"
 									placeholder="email@domain.com"
 									onChange={handleInputChange}
@@ -92,6 +97,7 @@ function Contact() {
 								<input
 									type="text"
 									id="name"
+									name="name"
 									className="form-control"
 									placeholder="John Smith"
 									onChange={handleInputChange}
@@ -101,6 +107,7 @@ function Contact() {
 								<label htmlFor="message">Write your message</label>
 								<textarea 
 									id="message" 
+									name="message"
 									className="form-control"
 									onChange={handleInputChange}
 								>
