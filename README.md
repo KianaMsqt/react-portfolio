@@ -42,8 +42,41 @@ Runs build and deploy on GitHub Pages. If you like to fork this project and depl
 
 
 ## Demo
-Deployed application is available in following link:\
+Deployed application is available in following link:
 https://kianamsqt.github.io/react-portfolio/
 
 Following images show the web application's appearance:
 
+
+| ![Home Page](./public/Home.png) |
+|:--:|
+| <b>Home Page</b>|
+
+
+| ![Portfolio](./public/Projects.png) |
+|:--:|
+| <b>Portfolio</b>|
+
+
+| ![Project Full](./public/Project-Details.png) |
+|:--:|
+| <b>Project Details</b>|
+
+
+| ![Skills](./public/Skills.png) |
+|:--:|
+| <b>Skills</b>|
+
+
+| ![Contact with error](./public/Contact-Error.png) |
+|:--:|
+| <b>Contact page with an error message on form validation</b>|
+
+
+| ![Contact with success](./public/Contact-Success.png) |
+|:--:|
+| <b>Contact page with a success message on form validation</b>|
+
+
+## Contributing
+You can reach the project on https://github.com/KianaMsqt/react-portfolio .
