@@ -28,14 +28,12 @@ function Contact() {
 	const handleFormSubmit = event => {
         event.preventDefault();
         const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
-        // const { email, message } = formData;
 
         if (!emailRegex.test(formData.email)) {
 			// Set an object with properties for the toast message
 			setValidationMessage({ header: "Failed!", text: "Please enter a valid email address.", color: "red" });
 			return;
 		}
-
         if (!formData.message) {
 			// Set an object with properties for the toast message
 			setValidationMessage({ header: "Failed!", text: "Please enter a message.", color: "red" });
@@ -65,14 +63,14 @@ function Contact() {
 					{/* Check if there is something to show in toast */}
 					{validationMessage && (
 						<Toast
-							show={true}
 							style={{
 								position: 'absolute',
 								top: "30px",
-								right: 0,
+								left: "10px",
+								width: "calc(100% - 20px)",
 							}}
 						>
-							<Toast.Header>
+							<Toast.Header closeButton={false}>
 								<strong className="mr-auto" style={{ color: validationMessage.color }}>{validationMessage.header}</strong>
 							</Toast.Header>
 							<Toast.Body>{validationMessage.text}</Toast.Body>
