@@ -1,0 +1,23 @@
+.contact-details img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-details ul {
+    padding: 1rem;
+}
+
+.contact-details ul li {
+    list-style: none;
+    font-weight: 500;
+}
+
+.contact-details a:not(.btn) {
+    color: var(--colored);
+}
+
+/* Adding asterisk to required fields */
+.form-group.required label:after {
+    content:"*";
+    color:red;
+}
