@@ -2,12 +2,12 @@
 
 
 ## Description
----
 This application was created for showing an online portfolio website using react.js, bootstrap and react-router designed and developed by [@KianaMsqt](https://github.com/KianaMsqt)
+
+---
 
 
 ## Available Scripts
----
 In the project directory, you can run:
 
 ### `npm i`
@@ -40,6 +40,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Runs build and deploy on GitHub Pages. If you like to fork this project and deploy the app on your GitHub pages you will need to change `"homepage"` in `package.json`.
 
+
+---
 
 ## Demo
 Deployed application is available in following link:
@@ -77,6 +79,9 @@ Following images show the web application's appearance:
 |:--:|
 | <b>Contact page with a success message on form validation</b>|
 
+
+
+---
 
 ## Contributing
 You can reach the project on https://github.com/KianaMsqt/react-portfolio .
