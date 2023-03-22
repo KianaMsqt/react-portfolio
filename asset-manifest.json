@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.008af8a9.css",
-    "main.js": "/react-portfolio/static/js/main.cecd7a2c.js",
+    "main.css": "/react-portfolio/static/css/main.3f6f31d8.css",
+    "main.js": "/react-portfolio/static/js/main.0131b5bf.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/home-hero.jpg": "/react-portfolio/static/media/home-hero.4af070386dbb7acb4e83.jpg",
     "static/media/avatar.jpeg": "/react-portfolio/static/media/avatar.8976065db356aaa830fd.jpeg",
     "static/media/Tayebe-Kiana-Masqati-resume.pdf": "/react-portfolio/static/media/Tayebe-Kiana-Masqati-resume.40242fe9882657413ccc.pdf",
     "static/media/Kiana-Masqati.jpeg": "/react-portfolio/static/media/Kiana-Masqati.78d911354ac72abcd917.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.008af8a9.css.map": "/react-portfolio/static/css/main.008af8a9.css.map",
-    "main.cecd7a2c.js.map": "/react-portfolio/static/js/main.cecd7a2c.js.map",
+    "main.3f6f31d8.css.map": "/react-portfolio/static/css/main.3f6f31d8.css.map",
+    "main.0131b5bf.js.map": "/react-portfolio/static/js/main.0131b5bf.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.008af8a9.css",
-    "static/js/main.cecd7a2c.js"
+    "static/css/main.3f6f31d8.css",
+    "static/js/main.0131b5bf.js"
   ]
 }
