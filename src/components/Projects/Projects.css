@@ -27,9 +27,9 @@
 }
 
 .card-img-top {
-    height: 30vh;
+    height: 20vh;
     overflow: hidden;
-    background: #ddd;
+    background: #fff;
 }
 
 .card-img-top img {

@@ -18,7 +18,7 @@ function ProjectDetails() {
                     <a href={project.demo} target="_blank" rel="noreferrer" className="btn btn-primary">Demo</a>
                 </div>
                 <div className="col-md-4">
-                    <img src={project.image ? project.image : "https://placehold.co/600x400?text=No+Image"}  alt="Card cap" />
+                    <img src={project.image ? process.env.PUBLIC_URL + project.image : "https://placehold.co/600x400?text=No+Image"}  alt="Card cap" />
                 </div>
             </div>
         </div>
